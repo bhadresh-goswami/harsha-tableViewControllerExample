@@ -12,6 +12,7 @@
 		4F03DDF7220ED576001EE381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F03DDF5220ED576001EE381 /* Main.storyboard */; };
 		4F03DDF9220ED576001EE381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F03DDF8220ED576001EE381 /* Assets.xcassets */; };
 		4F03DDFC220ED576001EE381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F03DDFA220ED576001EE381 /* LaunchScreen.storyboard */; };
+		4F03DE04220ED698001EE381 /* InfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F03DE03220ED698001EE381 /* InfoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F03DDF8220ED576001EE381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F03DDFB220ED576001EE381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F03DDFD220ED576001EE381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F03DE03220ED698001EE381 /* InfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				4F03DDF8220ED576001EE381 /* Assets.xcassets */,
 				4F03DDFA220ED576001EE381 /* LaunchScreen.storyboard */,
 				4F03DDFD220ED576001EE381 /* Info.plist */,
+				4F03DE03220ED698001EE381 /* InfoTableViewController.swift */,
 			);
 			path = tableViewControllerExample;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F03DE04220ED698001EE381 /* InfoTableViewController.swift in Sources */,
 				4F03DDF4220ED576001EE381 /* ViewController.swift in Sources */,
 				4F03DDF2220ED576001EE381 /* AppDelegate.swift in Sources */,
 			);
